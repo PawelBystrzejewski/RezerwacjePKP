@@ -1,0 +1,6 @@
+rezerwacje_pkp:
+    resource: "@RezerwacjePkpBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+
