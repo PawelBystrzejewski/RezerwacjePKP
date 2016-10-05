@@ -1,6 +1,9 @@
-rezerwacje_pkp:
-    resource: "@RezerwacjePkpBundle/Controller/"
+reservation:
+    resource: "@ReservationBundle/Controller/"
     type:     annotation
     prefix:   /
 
+# app/config/routing.yml
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
 

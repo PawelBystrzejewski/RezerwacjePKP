@@ -81,4 +81,4 @@ swiftmailer:
 fos_user:
     db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
     firewall_name: main
-    user_class: RezerwacjePkpBundle\Entity\User
+    user_class: ReservationBundle\Entity\User
